@@ -1,7 +1,41 @@
 body{
     background-color: #000;
+    color: #fff;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin:0 3% 0 0;
+    padding: 20px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50px;
+    transition: border-bottom-width 0.5s ease;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+nav ul {
+    text-align: center;
+    
+    
 }
 
+nav {
+    margin-top: 30px;
+    /*border-top: thin solid #999;
+    border-bottom: thin solid #999;*/
+
+    padding-top: 10px;
+}
+nav ul li:hover{
+	border-color: #B20000;
+    border-bottom-width: 15px;
+}
+nav ul li:active{
+	color: #B20000;
+}
 
 
 
