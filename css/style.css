@@ -66,3 +66,7 @@ nav ul li:active{
 
 /***********CONTACT FORM****************/
 label {color:white;}
+
+#contactForm {
+    margin-top: 20px;
+}
