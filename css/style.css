@@ -5,16 +5,16 @@ body{
 nav ul li {
     display: inline-block;
     text-decoration: none;
-    margin:0 3% 0 0;
+    margin:7px 3% 0 0;
     padding: 20px;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 50px;
-    transition: border-bottom-width 0.5s ease;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: border-bottom-width 0.5s ease ,border-color 0.5s ease;
     font-size: 20px;
     cursor: pointer;
-    
 }
 nav ul {
     text-align: center;
@@ -30,8 +30,8 @@ nav {
     padding-top: 10px;
 }
 nav ul li:hover{
-	border-color: #B20000;
-    border-bottom-width: 15px;
+	border-color: #f00;
+    border-bottom-width: 5px;
 }
 nav ul li:active{
 	color: #B20000;
