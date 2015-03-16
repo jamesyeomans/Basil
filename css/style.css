@@ -70,3 +70,31 @@ label {color:white;}
 #contactForm {
     margin-top: 20px;
 }
+
+
+
+/************FOOTER **************/
+footer {
+    border-top: thin solid red;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+
+footer ul li {
+        display: inline-block;
+        margin-left: 2%;
+        font-size: 15px;
+}
+
+footer ul li a:link{
+    text-decoration: none; 
+    color: red;
+}
+
+footer ul li a:hover{
+    text-decoration: none; 
+    color: white;
+    
+}
